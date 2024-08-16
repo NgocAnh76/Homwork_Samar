@@ -706,7 +706,7 @@ footer::before {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   background-image: url(./img/pattern2.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -892,12 +892,10 @@ footer .footer__content .footer__item h3:after {
   cursor: pointer;
   transition: all 0.3s;
 }
-.footer__bottom .content__right:hover {
+.footer__bottom .content__right a:hover {
   background-color: #f45f8d;
 }
-/* .footer__bottom .content__right a:hover {
-  color: #f45f8d;
-} */
+
 .backToTop {
   width: 50px;
   height: 50px;
